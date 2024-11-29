@@ -141,7 +141,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
                 <a href="https://scholar.google.com/citations?user=Gudfky4AAAAJ&hl=zh-CN" style="color:#0071f2;font-weight:normal;">Junzhi Yu<sup><b style="color:#0071f2; font-weight:normal">&#x25B6 </b></sup></a>,
               </span>
               <span class="author-block">
-                <a href="https://www.leizhang.org/" style="color:#a800d7;font-weight:normal;">Lei Zhang<sup><b style="color:#a800d7; font-weight:normal">&#x25B6 </b></sup></a>,
+                <a href="https://www.leizhang.org/" style="color:#a800d7;font-weight:normal;">Lei Zhang<sup><b style="color:#a800d7; font-weight:normal">&#x25B6 </b></sup></a>
               </span>
             </div>
             <br>
@@ -163,7 +163,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
             <div class="column has-text-centered">
               <div class="publication-links">
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2403.13042" target="_blank"
+                  <a href="https://arxiv.org/abs/" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -211,7 +211,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   <section class="section"  style="background-color:#efeff081">
     <div class="columns is-centered has-text-centered">
       <div class="column is-six-fifths">
-        <h2 class="title is-3"><span style="font-size: 100%;">🛠️ Application of HandOS in real-world scenes. </h2>
+        <h2 class="title is-3"><span style="font-size: 100%;">🛠️ Application of HandOS in real-world scenes</h2>
           <div class="video">
             <video width="320" height="240" controls>
               <source src="./images/clip-0.mp4" type="video/mp4">
@@ -246,7 +246,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
       <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-six-fifths">
-          <h2 class="title is-3"> 🧬 What is HandOS.</h2>
+          <h2 class="title is-3"> 🧬 What is HandOS</h2>
           <div style="text-align: center;">
             <img id="teaser" width="90%" src="images/teaser.jpg" style="margin-bottom: 30px;">     
           </div>
@@ -268,7 +268,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   <!-- Results. -->
   <div class="columns is-centered has-text-centered">
     <div class="column is-six-fifths">
-      <h2 class="title is-3">👣 A brief overview.</h2>
+      <h2 class="title is-3">👣 A brief overview</h2>
     </div>
   </div>
   <!-- </div> -->
@@ -286,11 +286,12 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
         </p>
           <centering>
             <div style="text-align: center;">
-              <img id="teaser" width="90%" src="images/arch.jpg" style="margin-bottom: 30px;">     
+              <figure>
+              <img id="teaser" width="100%" src="images/arch.jpg" style="margin-bottom: 30px;" alt="test"> 
+              <figcaption>Overview of HandOS framework. Left: overall architecture. Right: interactive 2D-3D decoder. With off-the-shelf features, bounding boxes, and category scores from a frozen detector, the interactive 2D-3D decoder, including query filtering, expansion, lifting, and interactive layers, can understand hand pose and shape via estimating keypoints in both 2D and 3D spaces.
+              </figcaption>
+              </figure>
             </div>
-          <i>
-            Overview of HandOS framework. Left: overall architecture. Right: interactive 2D-3D decoder. With off-the-shelf features, bounding boxes, and category scores from a frozen detector, the interactive 2D-3D decoder, including query filtering, expansion, lifting, and interactive layers, can understand hand pose and shape via estimating keypoints in both 2D and 3D spaces.
-          </i>
           </centering> 
       </div>
     </div>
@@ -315,14 +316,14 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
       <div class="content has-text-justified"> 
 
           <centering>
+            <p>
+              Evaluated on 4 benchmarks, the HandOS achieves state-of-the-art performance (Green and light green indicate the best and second number). <br>
+              Even when compared with methods trained on large-scale data (i.e., HaMeR and Hamba), HandOS is still competitive.
+            </p>
             <div style="text-align: center;">
               <img id="teaser" width="70%" src="images/performance.jpg">     
             </div>
           </centering> 
-        <p>
-          Evaluated on 4 benchmarks, HandOS achieves state-of-the-art performance (Green and light green indicate the best and second value. ). <br>
-          Even when compared with methods trained on large-scale data (i.e., HaMeR and Hamba), HandOS is still competitive.
-        </p>
       </div>
     </div>
   </div>
